@@ -1,41 +1,45 @@
 format: jb-book
-root: intro
+root: overview
 parts:
-  - caption: Accessing data
-    chapters:
-    - file: platforms/platforms-intro
-      sections:
-      - file: platforms/platforms-nci-gadi
-      - file: platforms/platforms-nci-ood
-      - file: platforms/platforms-pangeo
-      - file: platforms/platforms-pawsey
-      - file: platforms/platforms-CSIRO
-      - file: platforms/platforms-BoM
-      - file: platforms/platforms-institutional
-      - file: platforms/platforms-PC
-    - file: accessing_data
-  - caption: Data storage
-    chapters:
-    - file: data_storage
-      sections:
-      - file : nczarr_test
-  - caption: Metadata
-    chapters:
-    - file: format_metadata         
-  - caption: Computations
-    chapters:
-    - file: computations/computations 
-    - file: computations/chunking    
-    - file: computations/time_axis    
-  - caption: Available tools
-    chapters:
-    - file: tools/tools-intro.md   
-      sections:
-      - file: tools/tools-python1.md   
-      - file: tools/tools-python2.md   
-      - file: tools/tools-rcran.md   
-      - file: tools/tools-other.md   
-  - caption: Resources
-    chapters:
-    - file: resources 
-    - file: help 
+- caption: Accessing data
+  chapters:
+  - file: platforms/platforms-intro
+    sections:
+    - file: platforms/platforms-nci-gadi
+    - file: platforms/platforms-nci-ood
+    - file: platforms/platforms-pangeo
+    - file: platforms/platforms-pawsey
+    - file: platforms/platforms-CSIRO
+    - file: platforms/platforms-BoM
+    - file: platforms/platforms-institutional
+    - file: platforms/platforms-PC
+  - file: accessing_data
+
+- caption: Data storage
+  chapters:
+  - file: data_storage
+    sections:
+    - file : nczarr_test
+
+- caption: Metadata
+  chapters:
+  - file: format_metadata         
+
+- caption: Computations
+  chapters:
+  - file: computations/computations 
+  - file: computations/chunking    
+  - file: computations/time_axis    
+
+- caption: Available tools
+  chapters:
+  - file: tools/tools-intro.md   
+    sections:
+    - file: tools/tools-python1.md   
+    - file: tools/tools-python2.md   
+    - file: tools/tools-rcran.md   
+    - file: tools/tools-other.md   
+- caption: Resources
+  chapters:
+  - file: resources 
+  - file: help 
